@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+ header {
+ background-image: url("img/fondo.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+ width: 100%;
+ }
+
+ header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+ }
+
+ header ul li {
+    font-size: 20px;
+ }
