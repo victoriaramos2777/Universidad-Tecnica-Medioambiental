@@ -4,10 +4,10 @@
 }
 
  header {
- background-image: url("img/fondo.jpg");
- background-repeat: no-repeat;
-
- width: 100%;
+    background-image: url("img/fondo.jpg");
+     background-repeat: no-repeat;
+    background-color: #FCFCFC;
+    width: 100%;
  }
 
  header ul {
@@ -23,26 +23,27 @@
 
  main h1 {
    text-align: center;
-   margin-top: 5%;
+    padding: 3%;
+
  }
 
  hr {
-   width: 30%;
-   margin-left: 35%;
+   width: 15%;
+   margin-left: 43%;
  }
 
  .parte1 {
    display: flex;
    margin-top: 10%;
-   width: 90%;
-   margin-left:15%;
+   width: 80%;
+   margin-left:18%;
  }
 
  .parte2 {
    display: flex;
    margin-top: 2%;
-   width: 90%;
-   margin-left: 15%;
+   width: 80%;
+   margin-left: 18%;
  }
  
  details summary {
@@ -75,47 +76,48 @@
  } 
 
  .num3 {
-background-color: red;
-padding: 2%;
-margin-left:1%;
-width: 20%;
+    background-color: red;
+    padding: 2%;
+    margin-left:1%;
+    width: 20%;
  }
 
 .num4 {
-   background-color:blue;
-padding: 2%;
-margin-left: 1;
-width: 20%
+    background-color:blue;
+    padding: 2%;
+    margin-left: 1;
+    width: 20%
 
 }
 
 .num5 {
    background-color:rgb(11, 69, 69);
-padding: 2%;
-margin-left: 1%;
-width: 20%
+    padding: 2%;
+    margin-left: 1%;
+    width: 20%
 }
 
 .num6 {
    background-color:rgb(178, 178, 1);
-padding: 2%;
-margin-left: 1%;
-width: 20%
+    padding: 2%;
+    margin-left: 1%;
+    width: 20%
 }
 
-#cedes {
+#sedes {
    background-color: #0A9B17;
    width: 100%;
    margin-top: 5%;
+
 }
-#cedes h1 {
+#sedes h1 {
    color: white;
    font-size: 30px;
 }
 
 .los2 {
    display: flex;
-   margin-top: 5%;
+   margin-top: 3%;
    width: 100%;
 }
 
@@ -123,6 +125,7 @@ width: 20%
    border: 1px solid white;
    margin-left:5% ;
    margin-bottom: 3%;
+   margin-right: 0.3%;
 
 }
 .parte4{
@@ -148,15 +151,16 @@ width: 20%
    text-align: center;
 }
 .los2 h3 {
-text-align: center;
-color: white;
+   text-align: center;
+    color: white;
 }
 
 footer {
    background-image: url("img/fondo.jpg");
- background-repeat: no-repeat;
- width: 100%;
- margin-top:3%;
+    background-repeat: no-repeat;
+    background-color: #FCFCFC;
+    width: 100%;
+    margin-top:5%;
 }
 footer h2 {
    text-align: center;
