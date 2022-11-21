@@ -4,7 +4,7 @@
 }
 
  header {
-    background-image: url("img/fondo.jpg");
+    background-image: url("./assets/img/fondo.jpg");
      background-repeat: no-repeat;
     background-color: #FCFCFC;
     width: 100%;
@@ -91,7 +91,7 @@
 }
 
 .num5 {
-   background-color:rgb(11, 69, 69);
+   background-color:green;
     padding: 2%;
     margin-left: 1%;
     width: 20%
@@ -155,170 +155,16 @@
     color: white;
 }
 
-footer {
-   background-image: url("img/fondo.jpg");
-    background-repeat: no-repeat;
-    background-color: #FCFCFC;
-    width: 100%;
-    margin-top:5%;
-}
+
 footer h2 {
    text-align: center;
    padding:3% ;
 }
 
-/*pantalla para movil*/
-@media screen and (min-width:300px) {
-  
-  body {
-   width: 100%;
-   margin:0%;
-   padding: 0%;
-   margin-right: 0%;
-   margin: 5%;
-  }
-  
-  
-   header {
-      background-image:linear-gradient(to right, white, yellow,greenyellow,rgb(45, 45, 172));
-      margin: 0%;
-      display:flex;
-      flex-direction: column;
-
-   }
-
-   header ul {
-
-      padding: 0%;
-      list-style: none;
-      display: flex; 
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      
-   }
-
-   main {
-      margin-right: 0%;
-      padding-right: 0%;
-   }
-
-   .parte1 {
-      margin: 0%;
-      display: flex;
-      flex-direction: column;
-      margin-top: 10%;
-      width: 90%;
-      
-    }
-   
-    .parte2 {
-      margin: 0%;
-      display: flex;
-      flex-direction: column;
-      margin-top: 2%;
-      width: 90%;
-
-    }  
-
-    .num1  {
-      background-color: rgb(59, 94, 7);
-   
-      width:100%;
-    }
-   
-    .num2 {
-        background-color: rgb(245, 245, 138); 
-        margin: 0%;
-        margin-top: 2%;
-        width: 100%;
-    }
-   
-    summary p {
-      font-size: 25px;
-   
-   
-    }
-    summary  {
-      font-size: 19px;
-      text-align: center;
-   
-    } 
-   
-    .num3 {
-       background-color: rgb(214, 144, 144);
-      margin: 0%;
-      margin-top: 2%;
-       width: 100%;
-    }
-   
-   .num4 {
-       background-color:rgb(176, 176, 242);
-       margin: 0%;
-       margin-top: 2%;
-       width: 100%
-   
-   }
-   
-   .num5 {
-      margin: 0%;
-      padding:2%;
-      margin-top: 5%;
-      background-color:rgb(8, 149, 149);
-       width: 100%
-   }
-
-   .num6 {
-      background-color:rgb(255, 255, 77);
-       padding: 2%;
-       margin:0%;
-       margin-top: 5%;
-       width: 100%
-   }
-   
-   #sedes {
-      padding: 0%;
-      margin: 0%;
-      background-color: #022c06;
-      width:90%;
-      margin-right: 0%;
-      margin-top: 5%;
-   }
-   
-   
-   .los2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0%;
-      padding: 0%;
-      margin-top: 3%;
-      width: 90%;
-   }
-   .parte3 {
-      margin: 0%;
-      margin-left: 10%;
-      margin-right: 0%;
-   }
-   .parte4 {
-      padding: 0%;
-      margin: 0%;
-      margin: 10%;
-      width: 25rem;
-      margin-right: 0%;
-   
-   }
-   
-
-   
-   
-   footer {
-      background-image:linear-gradient(to right, white, yellow,greenyellow,rgb(45, 45, 172));
-       background-repeat: no-repeat;
-       background-color: #FCFCFC;
-       
-       width: 90%;
-       margin-top:5%;
-   }
-   
+footer {
+   background-image: url("./assets/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-color: #FCFCFC;
+    width: 100%;
+    margin-top:5%;
 }
